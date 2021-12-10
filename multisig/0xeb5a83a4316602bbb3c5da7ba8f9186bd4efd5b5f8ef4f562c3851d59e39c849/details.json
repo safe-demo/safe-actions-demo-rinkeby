@@ -1,0 +1,91 @@
+{
+   "safe": "0x94D998c2Cb35bD4388D1D5Ed71992bF4a802d7a9",
+   "to": "0x8D29bE29923b68abfDD21e541b9374737B49cdAD",
+   "value": "0",
+   "data": "0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000132002f5b16b55a5c3d491598309a41c44597e69fdc6800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044095ea7b300000000000000000000000005c85ab5b09eb8a55020d72daf6091e04e264af90000000000000000000000000000000000000000000000000000000000bc614e005f2350c58ae2dfb99842ec9bc6c94afec865eba800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044095ea7b3000000000000000000000000cb0591ba2d74edd4211d5200d5d3b19cf598c548000000000000000000000000000000000000000000000000000000003ade68b10000000000000000000000000000",
+   "operation": 1,
+   "gasToken": "0x0000000000000000000000000000000000000000",
+   "safeTxGas": 93706,
+   "baseGas": 0,
+   "gasPrice": "0",
+   "refundReceiver": "0x0000000000000000000000000000000000000000",
+   "nonce": 21,
+   "executionDate": null,
+   "submissionDate": "2021-02-06T15:16:37.510315Z",
+   "modified": "2021-02-06T15:17:06.823371Z",
+   "blockNumber": null,
+   "transactionHash": null,
+   "safeTxHash": "0xeb5a83a4316602bbb3c5da7ba8f9186bd4efd5b5f8ef4f562c3851d59e39c849",
+   "executor": null,
+   "isExecuted": false,
+   "isSuccessful": null,
+   "ethGasPrice": null,
+   "gasUsed": null,
+   "fee": null,
+   "origin": "{\"url\":\"https://ipfs.io/ipfs/QmYES1Se6i6679z3PfQ62bydgVVEoSRUabvjB35DfUGPGA\",\"name\":\"Transaction B\"}",
+   "dataDecoded": {
+      "method": "multiSend",
+      "parameters": [
+         {
+            "name": "transactions",
+            "type": "bytes",
+            "value": "0x002f5b16b55a5c3d491598309a41c44597e69fdc6800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044095ea7b300000000000000000000000005c85ab5b09eb8a55020d72daf6091e04e264af90000000000000000000000000000000000000000000000000000000000bc614e005f2350c58ae2dfb99842ec9bc6c94afec865eba800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044095ea7b3000000000000000000000000cb0591ba2d74edd4211d5200d5d3b19cf598c548000000000000000000000000000000000000000000000000000000003ade68b1",
+            "valueDecoded": [
+               {
+                  "operation": 0,
+                  "to": "0x2f5B16b55a5C3D491598309a41C44597E69FdC68",
+                  "value": "0",
+                  "data": "0x095ea7b300000000000000000000000005c85ab5b09eb8a55020d72daf6091e04e264af90000000000000000000000000000000000000000000000000000000000bc614e",
+                  "dataDecoded": {
+                     "method": "approve",
+                     "parameters": [
+                        {
+                           "name": "spender",
+                           "type": "address",
+                           "value": "0x05c85Ab5B09Eb8A55020d72daf6091E04e264af9"
+                        },
+                        {
+                           "name": "value",
+                           "type": "uint256",
+                           "value": "12345678"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "operation": 0,
+                  "to": "0x5F2350c58aE2dfB99842eC9BC6c94AFEc865ebA8",
+                  "value": "0",
+                  "data": "0x095ea7b3000000000000000000000000cb0591ba2d74edd4211d5200d5d3b19cf598c548000000000000000000000000000000000000000000000000000000003ade68b1",
+                  "dataDecoded": {
+                     "method": "approve",
+                     "parameters": [
+                        {
+                           "name": "spender",
+                           "type": "address",
+                           "value": "0xcB0591ba2D74EdD4211d5200D5d3b19cf598c548"
+                        },
+                        {
+                           "name": "value",
+                           "type": "uint256",
+                           "value": "987654321"
+                        }
+                     ]
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "confirmationsRequired": null,
+   "confirmations": [
+      {
+         "owner": "0x05c85Ab5B09Eb8A55020d72daf6091E04e264af9",
+         "submissionDate": "2021-02-06T15:16:48Z",
+         "transactionHash": "0x03ffe5c85f50c9c53494660f8c7e2c544ed6989c4f08448202c54f5a076f8a2d",
+         "signature": "0x00000000000000000000000005c85ab5b09eb8a55020d72daf6091e04e264af9000000000000000000000000000000000000000000000000000000000000000001",
+         "signatureType": "APPROVED_HASH"
+      }
+   ],
+   "signatures": null
+}
