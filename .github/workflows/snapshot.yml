@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Safe Service Sync"
-        uses: rmeissner/safe-service-monitor-gh-action@main
+        uses: rmeissner/safe-snapshot-monitor-gh-action@main
         env:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
