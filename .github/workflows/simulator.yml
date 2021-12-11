@@ -17,8 +17,7 @@ jobs:
         with:
           node-url: ${{ secrets.JSON_RPC_NODE }}
           check-target: ${{ steps.target.outputs.value }}
-          safe-address: '0x94D998c2Cb35bD4388D1D5Ed71992bF4a802d7a9'
-          service-url: 'https://safe-transaction.rinkeby.gnosis.io'
           fail-on-unknown-delegatecall: 'false'
-          # branch should not be protected
-          branch: 'main'
+          fail-on-safe-storage-changes: 'true'
+          show-info: 'true'
+          simulate-tx: 'true'
