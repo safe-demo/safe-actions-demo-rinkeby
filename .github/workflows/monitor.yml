@@ -13,5 +13,5 @@ jobs:
         env:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
-          safe-address: '0x94D998c2Cb35bD4388D1D5Ed71992bF4a802d7a9'
+          safe-address: '0x61c54cc934912828795acdF92b3770A6aad083E7'
           service-url: 'https://safe-transaction.rinkeby.gnosis.io'
