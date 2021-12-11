@@ -1,0 +1,17 @@
+name: "SnapShot Sync"
+on:
+  schedule:
+    - cron: '* * * * *'
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Safe Service Sync"
+        uses: rmeissner/safe-service-monitor-gh-action@main
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        with:
+          safe-address: '0x61c54cc934912828795acdF92b3770A6aad083E7'
+          snapshot-space: 'tutis.eth'
