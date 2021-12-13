@@ -1,0 +1,94 @@
+{
+   "space": {
+      "safe": "0x61c54cc934912828795acdF92b3770A6aad083E7"
+   },
+   "proposal": {
+      "address": "0x2dC63c83040669F0aDBa5F832F713152bA862c97",
+      "sig": "0x9ba97bced1badb1784ff76cbfa3c973f1ba74aebd6cd40fb5ae94db9958e75c2766c5ed07eb9824b21efeed6213c9ee9fe187f15824a75b919617d36552bef451b",
+      "data": {
+         "domain": {
+            "name": "snapshot",
+            "version": "0.1.4"
+         },
+         "types": {
+            "Proposal": [
+               {
+                  "name": "from",
+                  "type": "address"
+               },
+               {
+                  "name": "space",
+                  "type": "string"
+               },
+               {
+                  "name": "timestamp",
+                  "type": "uint64"
+               },
+               {
+                  "name": "type",
+                  "type": "string"
+               },
+               {
+                  "name": "title",
+                  "type": "string"
+               },
+               {
+                  "name": "body",
+                  "type": "string"
+               },
+               {
+                  "name": "choices",
+                  "type": "string[]"
+               },
+               {
+                  "name": "start",
+                  "type": "uint64"
+               },
+               {
+                  "name": "end",
+                  "type": "uint64"
+               },
+               {
+                  "name": "snapshot",
+                  "type": "uint64"
+               },
+               {
+                  "name": "network",
+                  "type": "string"
+               },
+               {
+                  "name": "strategies",
+                  "type": "string"
+               },
+               {
+                  "name": "plugins",
+                  "type": "string"
+               },
+               {
+                  "name": "metadata",
+                  "type": "string"
+               }
+            ]
+         },
+         "message": {
+            "space": "tutis.eth",
+            "type": "single-choice",
+            "title": "Get tutis.test",
+            "body": "Register tutis.test on ENS",
+            "choices": [
+               "Yes",
+               "No"
+            ],
+            "start": 1639306800,
+            "end": 1639911600,
+            "snapshot": 9796676,
+            "network": "4",
+            "strategies": "[{\"name\":\"erc20-balance-of\",\"params\":{\"symbol\":\"WETH\",\"address\":\"0xc778417E063141139Fce010982780140Aa0cD5Ab\",\"decimals\":18}}]",
+            "plugins": "{\"safeSnap\":{\"safes\":[{\"network\":\"4\",\"realityAddress\":\"0x3d70566f04FF7e98971696A248De5bE55e33ecE0\",\"txs\":[[{\"to\":\"0xf8d18b3c5de9892681998076bebcba32e62e0835\",\"value\":\"0\",\"data\":\"0xd22057a920bb1816dcc6f7d042f68aa38e0fa102a66eb39477d0a2aa7831dafc5467af0300000000000000000000000061c54cc934912828795acdf92b3770a6aad083e7\",\"nonce\":\"0\",\"operation\":\"0\"}]]}],\"valid\":true}}",
+            "metadata": "{}",
+            "from": "0x2dC63c83040669F0aDBa5F832F713152bA862c97",
+            "timestamp": 1639234715
+         }
+      }
+   }
+}
