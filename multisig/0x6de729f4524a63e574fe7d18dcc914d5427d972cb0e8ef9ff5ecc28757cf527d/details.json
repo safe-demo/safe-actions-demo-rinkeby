@@ -1,0 +1,55 @@
+{
+   "safe": "0x61c54cc934912828795acdF92b3770A6aad083E7",
+   "tx": {
+      "safe": "0x61c54cc934912828795acdF92b3770A6aad083E7",
+      "to": "0x61c54cc934912828795acdF92b3770A6aad083E7",
+      "value": "0",
+      "data": "0x0d582f130000000000000000000000002937abdbadfafe5041dd6a0eef73797f2eaed0720000000000000000000000000000000000000000000000000000000000000002",
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 0,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 2,
+      "executionDate": null,
+      "submissionDate": "2021-12-13T16:54:32.007480Z",
+      "modified": "2021-12-13T16:54:32.029068Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0x6de729f4524a63e574fe7d18dcc914d5427d972cb0e8ef9ff5ecc28757cf527d",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": null,
+      "dataDecoded": {
+         "method": "addOwnerWithThreshold",
+         "parameters": [
+            {
+               "name": "owner",
+               "type": "address",
+               "value": "0x2937AbdbaDfAFE5041dd6a0eEf73797f2EAeD072"
+            },
+            {
+               "name": "_threshold",
+               "type": "uint256",
+               "value": "2"
+            }
+         ]
+      },
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x05c85Ab5B09Eb8A55020d72daf6091E04e264af9",
+            "submissionDate": "2021-12-13T16:54:32.029068Z",
+            "transactionHash": null,
+            "signature": "0x6976eced8f4f5d7ad9895f2001be2ef7e3c82f64bd98153a9aefea10e02fd8b440b65c6b5c8a4bd7929974c9fa50622bb6857ad05e3e77d9f9bcb44bc102dabb1b",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
